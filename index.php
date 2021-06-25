@@ -2,8 +2,8 @@
 
 require 'AuthGoogle.php';
 
-define('CLIENT_ID', '636978555444-i0qbb2pu4to5t5umpf0ee8lrnbt85cq8.apps.googleusercontent.com');
-define('CLIENT_SECRET', 'ggQdZopyI6U5buHAHMBxh3z5');
+define('CLIENT_ID', '0000000000000000000000000000000000000000000000000000000000000');
+define('CLIENT_SECRET', '0000000000000000000');
 define('CLIENT_REDIRECT_URL', 'http://localhost/google-auth/index.php');
 
 $google_auth = new AuthGoogle(CLIENT_ID,CLIENT_SECRET,CLIENT_REDIRECT_URL);
